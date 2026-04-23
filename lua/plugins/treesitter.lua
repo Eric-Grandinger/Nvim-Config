@@ -1,4 +1,5 @@
 return {
+  -- TODO : test TODO-comments
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
   opts = {

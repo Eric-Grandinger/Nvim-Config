@@ -1,25 +1,24 @@
---return {
---  "neovim/nvim-lspconfig",
---  opts = {
---    servers = {
---      intelephense = {},
---    },
---  },
---}
+--[[
+vim.filetype.add({
+  extension = {
+    cshtml = "razor",
+    razor = "razor",
+  },
+})
+--]]
 return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
       intelephense = {},
-      sqls = {},
+      --sqls = {},
       cssls = {},
       html = {},
       clangd = {},
-      cpplint = {},
-      csharpier = {},
+      -- cpplint = {},
+      -- csharpier = {},
       pylsp = {},
-      codelldb = {},
-      chromedebugadapter = {}, -- work?
+      -- codelldb = {},
       eslint = {
         settings = {
           workingDirectory = { mode = "auto" },

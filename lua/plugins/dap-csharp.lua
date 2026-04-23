@@ -1,3 +1,4 @@
+--[[
 return {
   {
     "mfussenegger/nvim-dap",
@@ -41,3 +42,4 @@ return {
     end,
   },
 }
+--]]

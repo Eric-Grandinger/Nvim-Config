@@ -5,7 +5,8 @@ return {
     opts = {
       formatters_by_ft = {
         cpp = { "clang-format" },
-        cs = { "csharpier" },
+        --cs = { "csharpier" },
+        --cshtml = { "csharpier" },
         javascript = { "eslint_d" },
         typescript = { "eslint_d" },
       },
